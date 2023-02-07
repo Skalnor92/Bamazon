@@ -18,7 +18,7 @@ void show_items();
 int sprint_item(char *s, item *c);
 item *find_item_num(int itemnum);
 int find_item_str(item **items, char *s);
-Computer Systems and Architecture - Project Bamazon
+
 item *add_item(int itemnum, char *category, char *name, char size, int
 quantity, double cost, int onsale);
 item *update_item(int itemnum, category category, char *name, char size,

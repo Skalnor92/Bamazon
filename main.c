@@ -4,7 +4,7 @@
 #include "bamazon.h"
 
 int main () {
- 
+	
+printf("Hello Worlds"); 
 
-} 
-
+}
