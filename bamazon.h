@@ -30,4 +30,4 @@ item *purchase_item(int itemnum);
 item *delete_item(int itemnum);
 int checkout(char **receipt);
 char *category_to_str(category c);
-category str_to_category(char *s)
+category str_to_category(char *s);

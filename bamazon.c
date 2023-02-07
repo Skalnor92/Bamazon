@@ -1,7 +1,13 @@
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
+
+#define MAX_ITEMS 300
+#define MAX_ITEM_CHARS 32
+#define MAX_PURCHASE 10
 typedef enum { clothes, electronics, tools, toys } category;
 typedef struct {
 	int itemnum;
@@ -34,4 +40,4 @@ item *purchase_item(int itemnum);
 item *delete_item(int itemnum);
 int checkout(char **receipt);
 char *category_to_str(category c);
-category str_to_category(char *s)
+category str_to_category(char *s);
