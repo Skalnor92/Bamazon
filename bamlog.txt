@@ -1,1 +1,6 @@
-James
+Bamazon Work Log
+2/7/2023 2:10 PM - 3:10 PM
+	-Garrick: - Created Git Repository
+			  - Fixed Makefile
+	-James:	  - Created Makefile
+			  - Created Log file
